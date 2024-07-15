@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pesquisa de Satisfação</title>
+    </head>
+    <body>
+        <h1>Pesquisa de Satisfação</h1>
+        <form action="pagina_de_dados.html" method="post">
+            <Section>
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" placeholder="digite seu nome completo" id="nome"></input> 
+                </p>
+                <p>
+                    <label for="email">E-mail: </label>
+                    <input type="text" placeholder="digite um e-mail valido" id="email"></input>
+                </p>
+                <p>
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" placeholder="digite Telefone de contato" id="telefone"></input>
+                </p>                
+            </Section>   
+            <Section>
+                <h2>Dados da Pesquisa</h2>
+                <p>
+                    Como voce classifica o atendimento que que recebeu hoje?
+                </p>
+                <p>
+                    <Input type="radio" id="ruim" name="dados-pessoais"/>
+                    <label for="ruim">Ruim</label>
+                    <Input type="radio" id="bom" name="dados-pessoais"/>
+                    <label for="bom">Precisa melhorar</label>
+                    <Input type="radio" id="muito bom" name="dados-pessoais"/>
+                    <label for="muito bom"> Muito Bom</label>
+                    <Input type="radio" id="exelente" name="dados-pessoais"/>
+                    <label for="exelente">Indico sempre</label>
+                    
+                    
+                </p>
+                <P>
+                    Indiquei o quanto voce está satisfeito com o atendimento prestado.
+                </P>
+                <p>
+                    <Input type="radio" id="insatisfeto" name="satisfação"/>
+                    <label for="insatisfeito">Insatisfeito</label>
+                    <Input type="radio" id="Pouco Satisfeto" name="satisfação"/>
+                    <label for="pouco satisfeito">Pouco Satisfeito</label>
+                    <Input type="radio" id="Satisfeto" name="satisfação"/>
+                    <label for="satisfeito">Satisfeito</label>
+                    <Input type="radio" id="muito Satisfeto" name="satisfação"/>
+                    <label for="muito satisfeito">Muito Satisfeito</label>
+                </p>
+                <p>
+                    <label for="secretaria">Secretaria que atendeu você: </label>
+                    <select>
+                        <option>Educação</option>
+                        <option>Cultura</option>
+                        <option>Trânsito</option>
+                        <option>Esportes</option>
+                        <option>Segurança públlica</option>
+                        <option>Imprensa</option>   
+                        <option>Obras</option>
+                        <option>Tesouraria</option>
+                    </select>                        
+                </p>
+                <p>
+                    <input type="checkbox" id="termo"/>
+                    <label for="termo">Autorizo o compartilhamento dos meus dados com os parceiros da empresa.</label>
+                </p>
+            </Section>  
+            <input type="submit"  value="Enviar" />       
+        </form>
+    </body>
+</html>
