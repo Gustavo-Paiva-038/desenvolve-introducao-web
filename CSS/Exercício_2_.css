@@ -1,0 +1,14 @@
+html { front-size: 20px; }
+html h1 { front-size: 2rem; }
+h1 > .principal { front-size: 1.4em; }
+html .secundario { front-size: 1.4rem; }
+
+.ton-padrão {
+    background: rgb(219, 78, 68);
+}
+.ton-claro {
+    background: rgb(252, 90, 78);
+}
+.ton-escuro {
+    background: rgb(186, 66, 58);
+}
