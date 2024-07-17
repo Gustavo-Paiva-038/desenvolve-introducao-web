@@ -1,0 +1,36 @@
+/* Color Theme Swatches in Hex */
+/*
+.fundo { color: #a3daf8; }
+.principal { color: #2b0585; }
+.destaque { color: #0CF25D; }
+*/
+/*.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-2-hex { color: #025951; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-3-hex { color: #02735E; }*/
+
+html {
+    background: #a3daf8;
+    color: #2b0585;
+    font-size: 20px;
+    font-family: 'open', 'arial', 'josefin' sans-serif;    
+    }
+
+p {
+    text-indent: 1em;
+}
+h1 {
+    text-align: center;
+    font-style: 1.8rem;
+}
+h2 {
+    text-align: center;
+    font-style: 1.4rem;
+}
+h3 {
+    text-align: center;
+    font-style: 1.2rem;
+}
+
+.summary {text-align: right;}
+.main p {line-height: 1.5em;}
+
+abbr { font-variant: small-caps;}
