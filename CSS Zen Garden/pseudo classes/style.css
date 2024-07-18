@@ -1,0 +1,140 @@
+/* Color Theme Swatches in Hex */
+/*
+.fundo { color: #a3daf8; }
+.principal { color: #2b0585; }
+.destaque { color: #0ab112; }
+*/
+/*.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-2-hex { color: #025951; }
+.Closeup-shot-of-a-hard-soap-with-bubbles-and-beautiful-color-textures-3-hex { color: #02735E; }*/
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin:auto;
+    position: relative;
+    }
+.explanation {
+    width: 60%;
+    border-right: #2b0585 solid 1px;
+    padding-right: 2% ;    
+    }
+#design-selection {
+    position: absolute;
+    top: 480px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+.design-selection li{
+border-top: #2b0585 solid 1px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #2b0585 solid 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+#zen-intro {
+    height: 550px;    
+}
+#design-archives {
+display: none;
+}
+#zen-intro header {
+    background-color:#2b0585 ;
+    color: #a3daf8;
+}
+#zen-intro header h1, #zen-intro header h2 {
+    display: inline-block;
+}
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul {
+    list-style-type: none;
+}
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+.main footer {
+    margin: 4%;    
+}
+.main footer a {
+    border: solid 2px #2b0585;
+    padding: 0.5em;
+    display: inline-block;
+}
+.supporting footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.benefits {
+    display: flex;
+    border-bottom: #2b0585 solid 1px;
+    border-top: #2b0585 solid 1px;
+}
+
+.benefits p {
+    flex-basis: 70%;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.participation {
+display: flex;
+flex-wrap: wrap;
+border-top: #2b0585 solid 1px;
+}
+.participation p {
+    flex-basis: 50%;
+}
+.participation h3 {
+    flex-basis: 50%;
+    align-self: center;
+}
+a {
+    color: #0ab112
+}
+a:hover {
+    color: #0ab112a6
+}
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+html {
+    background: #a3daf8;
+    color: #2b0585;
+    font-size: 20px;
+    font-family: 'open', 'arial', 'josefin' sans-serif; 
+    }
+
+p {
+    text-indent: 1em;
+    }
+h1{
+    text-align: center;
+    font-weight: 1.8rem;
+    }
+h2 {
+    text-align: center;
+    font-weight: 1.4rem;
+    }
+h3 {
+    text-align: center;
+    font-weight: 1.2rem;
+    }
+
+.summary {text-align: right;}
+.main p {line-height: 1.5em;}
+abbr { font-variant: small-caps;}
